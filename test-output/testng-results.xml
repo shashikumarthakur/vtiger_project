@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-29T14:43:01 IST" name="Default suite" finished-at="2022-03-29T14:43:29 IST" duration-ms="28490">
+    <groups>
+    </groups>
+    <test started-at="2022-03-29T14:43:01 IST" name="Default test" finished-at="2022-03-29T14:43:29 IST" duration-ms="28490">
+      <class name="testNgPractice.ExtentReportGeneration">
+        <test-method is-config="true" signature="beforesuiteBS()[pri:0, instance:testNgPractice.ExtentReportGeneration@6574a52c]" started-at="2022-03-29T14:43:01 IST" name="beforesuiteBS" finished-at="2022-03-29T14:43:01 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuiteBS -->
+        <test-method is-config="true" signature="beforTestBT()[pri:0, instance:testNgPractice.ExtentReportGeneration@6574a52c]" started-at="2022-03-29T14:43:01 IST" name="beforTestBT" finished-at="2022-03-29T14:43:01 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforTestBT -->
+        <test-method is-config="true" signature="beforeClassBC()[pri:0, instance:testNgPractice.ExtentReportGeneration@6574a52c]" started-at="2022-03-29T14:43:01 IST" name="beforeClassBC" finished-at="2022-03-29T14:43:06 IST" duration-ms="4708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassBC -->
+        <test-method is-config="true" signature="beforeMethodBM()[pri:0, instance:testNgPractice.ExtentReportGeneration@6574a52c]" started-at="2022-03-29T14:43:06 IST" name="beforeMethodBM" finished-at="2022-03-29T14:43:09 IST" duration-ms="2964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodBM -->
+        <test-method signature="createContact()[pri:0, instance:testNgPractice.ExtentReportGeneration@6574a52c]" started-at="2022-03-29T14:43:09 IST" name="createContact" finished-at="2022-03-29T14:43:09 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method is-config="true" signature="afterMethodAM()[pri:0, instance:testNgPractice.ExtentReportGeneration@6574a52c]" started-at="2022-03-29T14:43:09 IST" name="afterMethodAM" finished-at="2022-03-29T14:43:12 IST" duration-ms="3244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodAM -->
+        <test-method is-config="true" signature="beforeMethodBM()[pri:0, instance:testNgPractice.ExtentReportGeneration@6574a52c]" started-at="2022-03-29T14:43:12 IST" name="beforeMethodBM" finished-at="2022-03-29T14:43:14 IST" duration-ms="2192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodBM -->
+        <test-method signature="createLead()[pri:0, instance:testNgPractice.ExtentReportGeneration@6574a52c]" started-at="2022-03-29T14:43:14 IST" name="createLead" finished-at="2022-03-29T14:43:14 IST" duration-ms="5" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Explicitly Failing This Method]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Explicitly Failing This Method
+at org.testng.Assert.fail(Assert.java:99)
+at testNgPractice.ExtentReportGeneration.createLead(ExtentReportGeneration.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method is-config="true" signature="afterMethodAM()[pri:0, instance:testNgPractice.ExtentReportGeneration@6574a52c]" started-at="2022-03-29T14:43:15 IST" name="afterMethodAM" finished-at="2022-03-29T14:43:18 IST" duration-ms="3089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodAM -->
+        <test-method is-config="true" signature="beforeMethodBM()[pri:0, instance:testNgPractice.ExtentReportGeneration@6574a52c]" started-at="2022-03-29T14:43:18 IST" name="beforeMethodBM" finished-at="2022-03-29T14:43:20 IST" duration-ms="2152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodBM -->
+        <test-method signature="createOrg()[pri:0, instance:testNgPractice.ExtentReportGeneration@6574a52c]" started-at="2022-03-29T14:43:20 IST" name="createOrg" finished-at="2022-03-29T14:43:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+        <test-method is-config="true" signature="afterMethodAM()[pri:0, instance:testNgPractice.ExtentReportGeneration@6574a52c]" started-at="2022-03-29T14:43:20 IST" name="afterMethodAM" finished-at="2022-03-29T14:43:23 IST" duration-ms="3195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodAM -->
+        <test-method is-config="true" signature="beforeMethodBM()[pri:0, instance:testNgPractice.ExtentReportGeneration@6574a52c]" started-at="2022-03-29T14:43:23 IST" name="beforeMethodBM" finished-at="2022-03-29T14:43:25 IST" duration-ms="2412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodBM -->
+        <test-method signature="createProduct()[pri:0, instance:testNgPractice.ExtentReportGeneration@6574a52c]" started-at="2022-03-29T14:43:25 IST" name="createProduct" finished-at="2022-03-29T14:43:25 IST" duration-ms="2" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Explicitly Skipping This Method]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Explicitly Skipping This Method
+at testNgPractice.ExtentReportGeneration.createProduct(ExtentReportGeneration.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProduct -->
+        <test-method is-config="true" signature="afterMethodAM()[pri:0, instance:testNgPractice.ExtentReportGeneration@6574a52c]" started-at="2022-03-29T14:43:25 IST" name="afterMethodAM" finished-at="2022-03-29T14:43:29 IST" duration-ms="3240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodAM -->
+        <test-method is-config="true" signature="afterClassAC()[pri:0, instance:testNgPractice.ExtentReportGeneration@6574a52c]" started-at="2022-03-29T14:43:29 IST" name="afterClassAC" finished-at="2022-03-29T14:43:29 IST" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassAC -->
+        <test-method is-config="true" signature="afterTestAT()[pri:0, instance:testNgPractice.ExtentReportGeneration@6574a52c]" started-at="2022-03-29T14:43:29 IST" name="afterTestAT" finished-at="2022-03-29T14:43:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestAT -->
+        <test-method is-config="true" signature="afterSuiteAS()[pri:0, instance:testNgPractice.ExtentReportGeneration@6574a52c]" started-at="2022-03-29T14:43:30 IST" name="afterSuiteAS" finished-at="2022-03-29T14:43:30 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteAS -->
+      </class> <!-- testNgPractice.ExtentReportGeneration -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.vtiger.org.CreateOrganizationTestNGTest">
+        <methods>
+          <include name="afterMethodAM"/>
+          <include name="beforesuiteBS"/>
+          <include name="afterClassAC"/>
+          <include name="createOrg"/>
+          <include name="afterTestAT"/>
+          <include name="afterSuiteAS"/>
+          <include name="beforeMethodBM"/>
+          <include name="beforTestBT"/>
+          <include name="beforeClassBC"/>
+        </methods>
+      </class> <!-- com.vtiger.org.CreateOrganizationTestNGTest -->
+      <class name="com.vtiger.org.CreateOrgByPOM_TestNgTest">
+        <methods>
+          <include name="afterMethodAM"/>
+          <include name="beforesuiteBS"/>
+          <include name="afterClassAC"/>
+          <include name="createOrganization"/>
+          <include name="afterTestAT"/>
+          <include name="afterSuiteAS"/>
+          <include name="beforeMethodBM"/>
+          <include name="beforTestBT"/>
+          <include name="beforeClassBC"/>
+        </methods>
+      </class> <!-- com.vtiger.org.CreateOrgByPOM_TestNgTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

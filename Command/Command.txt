@@ -1,0 +1,9 @@
+mvn -Dtest=className#MethodName test;
+
+mvn test -P idName;
+
+mvn -Dtest=ParameterTest test -Dbrowser=firefox -Durl=www.facebook.com
+
+mvn -Dtest=LoginPageTest -Dbrowser=firefox -Durl=http://localhost:8888 -Dusername=admin -Dpassword=root test
+
+ mvn clean test -DsuiteXmlFile=testng.xml------->(To call Particular Testng.xml file )
